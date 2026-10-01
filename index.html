@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alreflections Enterprise | Digital Solutions for Organizations</title>
+<meta name="description" content="Alreflections Enterprise provides ready-to-deploy technology solutions, programming, websites, software systems and digitalization services for organizations and academic institutions.">
+<style>
+:root{
+  --gold:#b88b01;--gold2:#d4a51c;--ink:#151515;--muted:#686868;--line:#e9e5dc;
+  --paper:#fff;--soft:#faf9f6;--dark:#181818;--max:1180px
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{max-width:var(--max);margin:auto;padding:0 24px}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
+.brand{display:flex;gap:12px;align-items:center;font-weight:800;letter-spacing:-.03em}.mark{width:38px;height:38px;border:2px solid var(--gold);display:grid;place-items:center;font-size:14px;color:var(--gold)}
+.brand small{display:block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#777;margin-top:-4px}
+.links{display:flex;gap:26px;font-size:14px;font-weight:600}.links a:hover{color:var(--gold)}
+.cta{background:var(--ink);color:#fff;padding:12px 18px;border-radius:4px;font-weight:700;font-size:14px}.cta:hover{background:var(--gold)}
+.hero{padding:92px 0 80px;background:linear-gradient(135deg,#fff 0%,#fff 66%,#fbf8ee 100%);border-bottom:1px solid var(--line)}
+.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.19em;font-weight:800;color:var(--gold);margin-bottom:18px}
+h1{font-size:clamp(46px,7vw,82px);line-height:.98;letter-spacing:-.065em;max-width:920px;margin:0 0 25px}
+.hero p{font-size:20px;color:#555;max-width:710px;margin:0 0 32px}.actions{display:flex;gap:12px;flex-wrap:wrap}.primary{background:var(--gold);color:#fff;padding:14px 21px;border-radius:4px;font-weight:800}.secondary{border:1px solid #cfc9bd;padding:13px 21px;border-radius:4px;font-weight:800}
+.proof{display:grid;grid-template-columns:repeat(4,1fr);margin-top:58px;border-top:1px solid var(--line);padding-top:24px}.proof strong{font-size:25px;display:block;letter-spacing:-.03em}.proof span{font-size:12px;color:#777}
+section{padding:92px 0}.section-head{max-width:720px;margin-bottom:42px}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:900}.section-head h2{font-size:clamp(32px,4vw,52px);line-height:1.05;letter-spacing:-.045em;margin:10px 0 14px}.section-head p{color:var(--muted);font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);padding:28px;background:#fff;min-height:225px;transition:.2s}.card:hover{transform:translateY(-3px);border-color:#d8c58d;box-shadow:0 14px 35px #00000009}.num{font-size:11px;color:var(--gold);font-weight:900;letter-spacing:.12em}.card h3{margin:30px 0 8px;font-size:21px;letter-spacing:-.02em}.card p{color:#666;margin:0;font-size:14px}
+.soft{background:var(--soft)}.split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.bigquote{font-size:clamp(30px,4vw,49px);line-height:1.08;letter-spacing:-.045em;margin:0}.bigquote em{color:var(--gold);font-style:normal}.list{border-top:1px solid var(--line)}.list div{padding:18px 0;border-bottom:1px solid var(--line);display:flex;gap:15px}.check{color:var(--gold);font-weight:900}.list b{font-size:15px}.list span{display:block;color:#777;font-size:13px}
+.solutions{grid-template-columns:repeat(2,1fr)}.solution{padding:31px;border:1px solid var(--line);display:flex;gap:20px;background:white}.icon{width:44px;height:44px;flex:0 0 44px;border:1px solid #d9c58c;display:grid;place-items:center;color:var(--gold);font-weight:900}.solution h3{margin:0 0 6px}.solution p{margin:0;color:#6b6b6b;font-size:14px}
+.process{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.step{padding:26px 18px;border-right:1px solid var(--line)}.step:last-child{border:0}.step strong{display:block;color:var(--gold);font-size:12px;margin-bottom:12px}.step h3{font-size:17px;margin:0 0 7px}.step p{font-size:13px;color:#777;margin:0}
+.institution{background:var(--dark);color:#fff}.institution .section-head p{color:#bbb}.institution .eyebrow{color:#d8ad29}.audiences{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#3a3a3a}.audience{padding:28px;background:var(--dark);min-height:155px}.audience h3{margin:0 0 7px}.audience p{color:#aaa;font-size:13px;margin:0}
+.case{display:grid;grid-template-columns:1.2fr .8fr;gap:30px}.case-main{background:#f7f4eb;padding:45px}.tag{display:inline-block;border:1px solid #d8c58d;padding:5px 9px;font-size:10px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:#806000}.case h3{font-size:36px;line-height:1.05;letter-spacing:-.04em;margin:20px 0 12px}.case p{color:#666}.case-side{border:1px solid var(--line);padding:28px}.case-side b{display:block;margin-bottom:6px}.case-side div+div{margin-top:25px;padding-top:25px;border-top:1px solid var(--line)}
+.final{padding:100px 0;text-align:center;background:#fbf8ee}.final h2{font-size:clamp(38px,5vw,62px);line-height:1;letter-spacing:-.055em;max-width:780px;margin:0 auto 18px}.final p{max-width:650px;margin:0 auto 30px;color:#666}
+footer{padding:28px 0;border-top:1px solid var(--line);font-size:13px;color:#777}.foot{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:850px){.links{display:none}.proof,.grid,.split,.process,.audiences,.case,.solutions{grid-template-columns:1fr 1fr}.process{border-bottom:0}.step{border-bottom:1px solid var(--line)}.hero{padding-top:65px}}
+@media(max-width:560px){.wrap{padding:0 18px}.proof,.grid,.split,.process,.audiences,.case,.solutions{grid-template-columns:1fr}.hero p{font-size:17px}.section{padding:70px 0}.foot{flex-direction:column}.nav{height:68px}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap" style="width:100%;display:flex;align-items:center;justify-content:space-between">
+    <a class="brand" href="#top"><span class="mark">AE</span><span>Alreflections<small>Enterprise</small></span></a>
+    <nav class="links"><a href="#solutions">Solutions</a><a href="#services">Services</a><a href="#institutions">Institutions</a><a href="#approach">Approach</a><a href="#contact">Contact</a></nav>
+    <a class="cta" href="#contact">Discuss a Project</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="wrap">
+<div class="kicker">Technology & Digitalization Partner</div>
+<h1>Technology that solves the work behind the work.</h1>
+<p>Alreflections Enterprise helps organizations and academic institutions modernize operations with ready-built technology solutions, custom programming, websites, software systems and practical digital infrastructure.</p>
+<div class="actions"><a class="primary" href="#solutions">Explore Solutions</a><a class="secondary" href="#contact">Talk to Alreflections</a></div>
+<div class="proof">
+<div><strong>Ready-built</strong><span>Technology solutions</span></div>
+<div><strong>Custom</strong><span>Programming & systems</span></div>
+<div><strong>Institution-ready</strong><span>Academic & organizational use</span></div>
+<div><strong>End-to-end</strong><span>Build, deploy & improve</span></div>
+</div>
+</div>
+</section>
+
+<section id="solutions">
+<div class="wrap">
+<div class="section-head"><div class="eyebrow">The core offer</div><h2>Use technology that is already built to solve real problems.</h2><p>Alreflections Enterprise combines a growing portfolio of practical digital products with the programming capability to adapt, integrate or build what an organization actually needs.</p></div>
+<div class="grid">
+<article class="card"><div class="num">01 / SOFTWARE</div><h3>School & Academic Systems</h3><p>Practical systems for school administration, records, reporting, registration, dashboards and other academic workflows.</p></article>
+<article class="card"><div class="num">02 / BUSINESS</div><h3>Business Management Tools</h3><p>Web-based systems for internal operations, inventory, customer management, data collection, reporting and workflow automation.</p></article>
+<article class="card"><div class="num">03 / WEB</div><h3>Professional Digital Platforms</h3><p>Websites and web applications that turn an organization’s online presence into useful infrastructure rather than decoration.</p></article>
+<article class="card"><div class="num">04 / INTEGRATION</div><h3>APIs & Digital Connectivity</h3><p>Connect systems, databases and services through APIs, integrations and practical digital infrastructure.</p></article>
+<article class="card"><div class="num">05 / OPEN SOURCE</div><h3>Deployable Open Software</h3><p>Alreflections OSN extends the technology portfolio with useful open-source web applications that can be studied, modified and deployed.</p></article>
+<article class="card"><div class="num">06 / DIGITALIZATION</div><h3>Process Modernization</h3><p>Replace repetitive manual processes with appropriate digital workflows, databases, forms, dashboards and software.</p></article>
+</div>
+</div>
+</section>
+
+<section class="soft" id="services">
+<div class="wrap split">
+<div><div class="eyebrow">Beyond products</div><p class="bigquote">When the existing solution is not enough, <em>programming fills the gap.</em></p></div>
+<div class="list">
+<div><span class="check">01</span><span><b>Custom software development</b><span>Build systems around a defined organizational requirement.</span></span></div>
+<div><span class="check">02</span><span><b>Website & web application development</b><span>Professional online platforms with databases, forms, dashboards and integrations.</span></span></div>
+<div><span class="check">03</span><span><b>Automation & internal tools</b><span>Digitize repetitive tasks and information flows.</span></span></div>
+<div><span class="check">04</span><span><b>Technical support & improvement</b><span>Deploy, maintain and progressively improve digital infrastructure.</span></span></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="section-head"><div class="eyebrow">What can be delivered</div><h2>From one digital component to an entire working system.</h2></div>
+<div class="grid solutions">
+<div class="solution"><div class="icon">01</div><div><h3>Websites</h3><p>Institutional websites, portals, catalogues, forms, news, membership and information systems.</p></div></div>
+<div class="solution"><div class="icon">02</div><div><h3>Web Applications</h3><p>Custom applications, dashboards, registration systems, booking platforms and internal tools.</p></div></div>
+<div class="solution"><div class="icon">03</div><div><h3>Databases</h3><p>Structured information systems for records, reporting, administration and operational workflows.</p></div></div>
+<div class="solution"><div class="icon">04</div><div><h3>APIs & Integrations</h3><p>Connect existing services and systems so information can move where it is needed.</p></div></div>
+<div class="solution"><div class="icon">05</div><div><h3>Digital Training</h3><p>Practical programming and technology training for staff, students, teams and communities.</p></div></div>
+<div class="solution"><div class="icon">06</div><div><h3>Digital Visibility</h3><p>Support for making useful websites, projects and digital content easier to discover online.</p></div></div>
+</div>
+</div>
+</section>
+
+<section class="institution" id="institutions">
+<div class="wrap">
+<div class="section-head"><div class="eyebrow">Built for organizations</div><h2>Technology partnerships for institutions that have work to digitize.</h2><p>Alreflections Enterprise can work with organizations that need technology but do not want to build an entire technical department from scratch.</p></div>
+<div class="audiences">
+<div class="audience"><h3>Schools</h3><p>Academic administration, school systems, websites, data and reporting.</p></div>
+<div class="audience"><h3>Universities</h3><p>Digital platforms, web applications, APIs, research and institutional systems.</p></div>
+<div class="audience"><h3>Businesses</h3><p>Operations, websites, automation, customer systems and digital infrastructure.</p></div>
+<div class="audience"><h3>Organizations</h3><p>Custom tools, databases, forms, reporting systems and digital transformation.</p></div>
+</div>
+</div>
+</section>
+
+<section id="approach">
+<div class="wrap">
+<div class="section-head"><div class="eyebrow">The working method</div><h2>Understand the problem. Build the solution. Make it useful.</h2><p>A practical delivery process keeps technology connected to the actual requirement.</p></div>
+<div class="process">
+<div class="step"><strong>01</strong><h3>Understand</h3><p>Define the problem, users, workflow and desired outcome.</p></div>
+<div class="step"><strong>02</strong><h3>Design</h3><p>Choose the appropriate system, structure and technology.</p></div>
+<div class="step"><strong>03</strong><h3>Build</h3><p>Develop or configure the practical digital solution.</p></div>
+<div class="step"><strong>04</strong><h3>Deploy</h3><p>Put the system into use and connect the necessary infrastructure.</p></div>
+<div class="step"><strong>05</strong><h3>Improve</h3><p>Learn from real use and continuously refine the solution.</p></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="case">
+<div class="case-main"><span class="tag">Technology capability</span><h3>XPSMA: a school management system built around simplicity.</h3><p>Originally built in 2023, XPSMA demonstrates Alreflections’ approach to identifying a real-world problem, building a solution, using it in practice, improving it and releasing it more broadly.</p><a class="cta" href="#contact">Ask about available solutions</a></div>
+<div class="case-side"><div><b>Built, not merely proposed</b><span>Alreflections develops and operates actual digital products and platforms.</span></div><div><b>Practical by design</b><span>The focus is appropriate technology that solves the requirement—not technology for its own sake.</span></div><div><b>Expandable</b><span>Existing solutions can become the starting point for customization, integration or new development.</span></div></div>
+</div>
+</div>
+</section>
+
+<section class="soft">
+<div class="wrap split">
+<div><div class="eyebrow">Why Alreflections Enterprise</div><p class="bigquote">A technology partner with <em>products to start from</em> and programming capability to go further.</p></div>
+<div class="list">
+<div><span class="check">✓</span><span><b>Lower reinvention</b><span>Start from practical solutions where they fit instead of building everything from zero.</span></span></div>
+<div><span class="check">✓</span><span><b>One technology partner</b><span>Programming, websites, software, databases, APIs and digital support under one relationship.</span></span></div>
+<div><span class="check">✓</span><span><b>Built from real practice</b><span>A growing portfolio of software, platforms and digital infrastructure informs the work.</span></span></div>
+<div><span class="check">✓</span><span><b>Designed to grow</b><span>Solutions can be improved, integrated and expanded as requirements evolve.</span></span></div>
+</div>
+</div>
+</section>
+
+<section class="final" id="contact">
+<div class="wrap">
+<div class="eyebrow">Start with the problem</div>
+<h2>Tell Alreflections what needs to work better.</h2>
+<p>Whether you need an existing technology solution, a new digital system, a website, programming support or institutional digitalization, start with the requirement.</p>
+<div class="actions" style="justify-content:center"><a class="primary" href="mailto:support@alreflections.net">support@alreflections.net</a><a class="secondary" href="https://www.alreflections.net/">Visit Alreflections</a></div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap foot"><span>© 2026 Alreflections Enterprise. A technology & digitalization business.</span><span>Built from Rwanda · Designed for wider markets.</span></div></footer>
+</body>
+</html>
